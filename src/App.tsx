@@ -16,10 +16,14 @@ const App: React.FC = () => {
     setCartItems([...cartItems, newItem]);
   };
 
-  // const handleRemoveFromCart = (_id: string) => {
-  //   const newCartItems = cartItems.filter(cartItem => cartItem._id !== _id);
-  //   setCartItems(newCartItems);
-  // };
+  const handleClearCart = () => {
+    setCartItems([]);
+  };
+
+  const handleRemoveFromCart = (_id: string) => {
+    const newCartItems = cartItems.filter(cartItem => cartItem._id !== _id);
+    setCartItems(newCartItems);
+  };
 
   const enterFullscreen = () => {
     if (elementRef?.current?.requestFullscreen) {
@@ -52,7 +56,11 @@ const App: React.FC = () => {
       <Grid columns="3fr 2fr" gap={0} ref={elementRef}>
         <MenuWrapper fullscreenToggle={fullscreenToggle} handleAddToCart={handleAddToCart} />
 
-        <ShoppingCartWrapper cartItems={cartItems} />
+        <ShoppingCartWrapper
+          cartItems={cartItems}
+          handleClearCart={handleClearCart}
+          handleRemoveFromCart={handleRemoveFromCart}
+        />
       </Grid>
     </ThemeUIProvider>
   );

@@ -1,12 +1,16 @@
 import React from "react";
-import { Box, Flex, Grid, Image, Select } from "theme-ui";
+import { Box, Button, Flex, Grid, Image, Select } from "theme-ui";
 import { CartItem } from "../../Types";
 
 interface ShoppingCartItemProps {
   item: CartItem;
+  handleRemoveFromCart: (id: string) => void;
 }
 
-export const ShoppingCartItem: React.FC<ShoppingCartItemProps> = ({ item }) => {
+export const ShoppingCartItem: React.FC<ShoppingCartItemProps> = ({
+  item,
+  handleRemoveFromCart
+}) => {
   return (
     <Box
       sx={{
@@ -42,6 +46,19 @@ export const ShoppingCartItem: React.FC<ShoppingCartItemProps> = ({ item }) => {
                 <option>3</option>
               </Select>
             </div>
+
+            <Button
+              onClick={() => handleRemoveFromCart(item._id)}
+              sx={{
+                background: "secondary",
+                color: "text2",
+                border: "none",
+                outline: "none",
+                maxWidth: "max-content"
+              }}
+            >
+              Remove
+            </Button>
           </Flex>
 
           <Box sx={{ textAlign: "right" }}>

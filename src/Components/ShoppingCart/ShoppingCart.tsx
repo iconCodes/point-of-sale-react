@@ -5,9 +5,15 @@ import { CartItem } from "../../Types";
 
 interface ShoppingCartWrapperProps {
   cartItems: CartItem[];
+  handleClearCart: () => void;
+  handleRemoveFromCart: (id: string) => void;
 }
 
-export const ShoppingCartWrapper: React.FC<ShoppingCartWrapperProps> = ({ cartItems }) => {
+export const ShoppingCartWrapper: React.FC<ShoppingCartWrapperProps> = ({
+  cartItems,
+  handleClearCart,
+  handleRemoveFromCart
+}) => {
   const subTotal = cartItems.reduce((acc, item) => acc + item.price, 0).toFixed(2);
   const salesTax = (Number(subTotal) * 0.06).toFixed(2);
   const total = (Number(subTotal) + Number(salesTax)).toFixed(2);
@@ -47,11 +53,15 @@ export const ShoppingCartWrapper: React.FC<ShoppingCartWrapperProps> = ({ cartIt
           "::-webkit-scrollbar-thumb ": {
             background: "scrollbarThumb2"
           },
-          paddingRight: "10px"
+          padding: "0 10px"
         }}
       >
         {cartItems.map(item => (
-          <ShoppingCartItem key={item._id} item={item} />
+          <ShoppingCartItem
+            key={item._id}
+            item={item}
+            handleRemoveFromCart={handleRemoveFromCart}
+          />
         ))}
       </Box>
 
@@ -98,7 +108,9 @@ export const ShoppingCartWrapper: React.FC<ShoppingCartWrapperProps> = ({ cartIt
         px="10px"
         sx={{ height: "40px" }}
       >
-        <Button sx={{ height: "40px" }}>Start Over</Button>
+        <Button onClick={handleClearCart} sx={{ height: "40px" }}>
+          Start Over
+        </Button>
         <Button sx={{ height: "40px" }}>Place Order</Button>
       </Grid>
 

@@ -50,18 +50,22 @@ export const menuItems = {
       fontWeight: "500"
     },
     addButton: {
-      background: "primary",
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center",
       borderRadius: "50%",
       bottom: "10px",
-      color: "text2",
+      color: "primary",
       cursor: "pointer",
-      fontSize: "2rem",
-      height: "50px",
+      fontSize: "2.75rem",
+      height: "45px",
       lineHeight: "50px",
       position: "absolute",
       right: "20px",
       textAlign: "center",
-      width: "50px"
+      width: "45px",
+      boxShadow: "0 0 10px rgba(0,0,0,.5)",
+      background: "linear-gradient(0deg, rgba(217,217,217,1) 10%, rgba(246,246,246,1) 90%)"
     }
   }
 };
