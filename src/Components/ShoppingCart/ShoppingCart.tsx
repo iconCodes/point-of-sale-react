@@ -34,7 +34,22 @@ export const ShoppingCartWrapper: React.FC<ShoppingCartWrapperProps> = ({ cartIt
       >
         Orders
       </Box>
-      <Box data-testid="shopping-cart-items" sx={{ overflowX: "hidden", overflowY: "scroll" }}>
+      <Box
+        data-testid="shopping-cart-items"
+        sx={{
+          overflowX: "hidden",
+          overflowY: "scroll",
+          width: "calc(100% - .5rem)",
+          "::-webkit-scrollbar": {
+            width: ".5rem",
+            background: "scrollbarBg2"
+          },
+          "::-webkit-scrollbar-thumb ": {
+            background: "scrollbarThumb2"
+          },
+          paddingRight: "10px"
+        }}
+      >
         {cartItems.map(item => (
           <ShoppingCartItem key={item._id} item={item} />
         ))}

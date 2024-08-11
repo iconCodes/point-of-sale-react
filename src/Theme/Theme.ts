@@ -11,13 +11,19 @@ export const theme = {
   },
   colors: {
     text1: "#676868",
-    text2: "#eee",
     background1: "#e9eaea",
-    background2: "#222",
-    primary: "#42b5da",
-    secondary: "#2f3131",
     border1: "#dddddd",
-    border2: "#555555"
+    scrollbarBg1: "#fbfbfb",
+    scrollbarThumb1: "#bbb",
+
+    text2: "#eee",
+    background2: "#222",
+    border2: "#555555",
+    scrollbarBg2: "#333333",
+    scrollbarThumb2: "#444",
+
+    primary: "#42b5da",
+    secondary: "#2f3131"
   },
   menuItems,
   pills,
