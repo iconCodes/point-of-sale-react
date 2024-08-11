@@ -1,0 +1,212 @@
+[
+  {
+    "_id": "1",
+    "type": "beef",
+    "name": "Classic Melt",
+    "price": 4.99,
+    "calories": 600,
+    "image": "151e05702db7617708b2808a4467c81a0796f6ff-1333x1333.webp"
+  },
+  {
+    "_id": "2",
+    "type": "beef",
+    "name": "Bacon Melt",
+    "price": 5.49,
+    "calories": 650,
+    "image": "ed996e75753716d9928f6d1ef96a4219603b8619-1333x1333.webp"
+  },
+  {
+    "_id": "3",
+    "type": "beef",
+    "name": "Philly Melt",
+    "price": 5.49,
+    "calories": 590,
+    "image": "caa9fc30c8a460f0fb34dc1fec3889996136c48f-1333x1333.webp"
+  },
+  {
+    "_id": "4",
+    "type": "beef",
+    "name": "Whopper",
+    "price": 6.19,
+    "calories": 670,
+    "image": "70faefbd88821e96bb3c473df7c57da383b821cb-1333x1333.webp"
+  },
+  {
+    "_id": "5",
+    "type": "beef",
+    "name": "Impossible™ Whopper",
+    "price": 7.19,
+    "calories": 630,
+    "image": "5dddf194b6dfd89567d029f2e74829fd6e7e75f8-1333x1333.webp"
+  },
+  {
+    "_id": "6",
+    "type": "beef",
+    "name": "Double Whopper",
+    "price": 8.19,
+    "calories": 920,
+    "image": "dd6b6b5e4d80d07fe74f76ef43cdc489cde70fba-1333x1333.webp"
+  },
+  {
+    "_id": "7",
+    "type": "beef",
+    "name": "Triple Whopper",
+    "price": 10.19,
+    "calories": 1170,
+    "image": "1c9ed40f7e09c637548141003698988098a64a78-1333x1333.webp"
+  },
+  {
+    "_id": "8",
+    "type": "beef",
+    "name": "Bacon King",
+    "price": 7.79,
+    "calories": 1200,
+    "image": "63103c51d3c7cf058e0f283f4fe5da2982072994-1333x1333.webp"
+  },
+  {
+    "_id": "9",
+    "type": "beef",
+    "name": "BBQ Bacon Whopper Jr.",
+    "price": 3.49,
+    "calories": 390,
+    "image": "5c5cddd3101d720775fea3a827c833d27f652520-1333x1333.webp"
+  },
+  {
+    "_id": "10",
+    "type": "beef",
+    "name": "Whopper Jr.",
+    "price": 3.19,
+    "calories": 330,
+    "image": "87044567be9bf7fa33cea2c805e769b723e78768-1333x1333.webp"
+  },
+  {
+    "_id": "11",
+    "type": "beef",
+    "name": "Bacon Double Cheeseburger",
+    "price": 3.99,
+    "calories": 440,
+    "image": "6d71f8a77d1c84670615d4e75b3a94ace4fda9a2-1333x1333.webp"
+  },
+  {
+    "_id": "12",
+    "type": "beef",
+    "name": "Bacon Cheeseburger",
+    "price": 2.79,
+    "calories": 340,
+    "image": "bfe3b110b2b5cb5d18b20288d7adb66abd567882-1333x1333.webp"
+  },
+  {
+    "_id": "13",
+    "type": "beef",
+    "name": "Double Cheeseburger",
+    "price": 3.29,
+    "calories": 400,
+    "image": "2fd4a1bb7568347c1f4f4f957926f6e72be4488e-1333x1333.webp"
+  },
+  {
+    "_id": "14",
+    "type": "beef",
+    "name": "Cheeseburger",
+    "price": 2.29,
+    "calories": 290,
+    "image": "29db406dba178505aa645df6071115d5cccc8190-1333x1333.webp"
+  },
+  {
+    "_id": "15",
+    "type": "beef",
+    "name": "Rodeo Burger",
+    "price": 1.89,
+    "calories": 340,
+    "image": "d94a8c6bea44c3f599db59773a037c2b4e0f9537-1333x1333.webp"
+  },
+  {
+    "_id": "16",
+    "type": "beef",
+    "name": "Hamburger",
+    "price": 1.99,
+    "calories": 250,
+    "image": "6522092246a0d977ff25fb7b312ba470e4987cb1-1333x1333.webp"
+  },
+
+  {
+    "_id": "17",
+    "name": "Royal Crispy Chicken",
+    "price": 5.79,
+    "calories": 600,
+    "image": "39b8559d8dfb7190c2051436a1201bc66ef63e08-1333x1333.webp",
+    "type": "chicken"
+  },
+  {
+    "_id": "18",
+    "name": "Fiery Royal Crispy Chicken",
+    "price": 6.29,
+    "calories": 760,
+    "image": "42b772f68890505de49687b87f511ffdba324725-1333x1333.webp",
+    "type": "chicken"
+  },
+  {
+    "_id": "19",
+    "name": "Bacon and Swiss Royal Crispy Chicken",
+    "price": 7.29,
+    "calories": 740,
+    "image": "7f840d63f88ab3060e4f9807a12d6abd1be2def3-1333x1333.webp",
+    "type": "chicken"
+  },
+  {
+    "_id": "20",
+    "name": "Original Chicken Sandwich",
+    "price": 5.89,
+    "calories": 680,
+    "image": "8983dc8e0c19a3906694a36b567369c59dc6bdd0-1333x1333.webp",
+    "type": "chicken"
+  },
+
+  {
+    "_id": "21",
+    "name": "Big Fish",
+    "price": 5.59,
+    "calories": 570,
+    "image": "0ad72da231f02dc5fdb7ac95f4dc4b3eae04867b-1333x1333.webp",
+    "type": "fish"
+  },
+  {
+    "_id": "22",
+    "name": "Chicken Jr.",
+    "price": 1.59,
+    "calories": 440,
+    "image": "11e07fe62d87bbb31e97446d5e872e14a8372e33-1333x1333.webp",
+    "type": "chicken"
+  },
+  {
+    "_id": "23",
+    "name": "Chicken Philly Royal Crispy Wrap",
+    "price": 2.99,
+    "calories": 360,
+    "image": "cab3be8a7e3835bf8a5eb7926b6fece95408e1ff-1333x1333.webp",
+    "type": "chicken"
+  },
+  {
+    "_id": "24",
+    "name": "Royal Crispy Wrap",
+    "price": 2.99,
+    "calories": 310,
+    "image": "dd1c784270cc676f430d7ecc5ecb66cf9d82e9c8-1333x1333.webp",
+    "type": "chicken"
+  },
+  {
+    "_id": "25",
+    "name": "Fiery Royal Crispy Wrap",
+    "price": 2.99,
+    "calories": 390,
+    "image": "4f6f950985127b9bea15cbb0cf5d914142c50e35-1333x1333.webp",
+    "type": "chicken"
+  },
+  {
+    "_id": "26",
+    "name": "Honey Mustard Royal Crispy Wrap",
+    "price": 2.99,
+    "calories": 290,
+    "image": "10c9fa2ab22d01d956d6038123eb5d0a6288ad08-1333x1333.webp",
+    "type": "chicken"
+  }
+]

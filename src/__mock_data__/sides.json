@@ -1,0 +1,100 @@
+[
+  {
+    "_id": "1",
+    "name": "Have-sies",
+    "price": 2.99,
+    "calories": 380,
+    "image": "e6a60c88456a02dcf5f7cb4ef99d18661afd458e-1333x1333.webp"
+  },
+  {
+    "_id": "2",
+    "name": "French Fries",
+    "price": 3.19,
+    "calories": 370,
+    "image": "3123dea9ef10d553ee7ec0e80e6b3d5827d493a8-1333x1333.webp"
+  },
+  {
+    "_id": "3",
+    "name": "Onion Rings",
+    "price": 3.19,
+    "calories": 360,
+    "image": "3573402ab528a5c82c910f051b034fac80ed81d3-1333x1333.webp"
+  },
+  {
+    "_id": "4",
+    "name": "12 Pc. Chicken Fries",
+    "price": 4.99,
+    "calories": 340,
+    "image": "e1686737d5e3180afdf6a64e13bc4c61c82676ef-1333x1333.webp"
+  },
+  {
+    "_id": "5",
+    "name": "8 Pc. Chicken Fries",
+    "price": 3.99,
+    "calories": 220,
+    "image": "634669afa40de124966b27fb705b2a139e7dd535-1333x1333.webp"
+  },
+  {
+    "_id": "6",
+    "name": "12 Pc. Mozzarella Fries",
+    "price": 4.99,
+    "calories": 730,
+    "image": "6563760809a86b7b9db8d05784ea9cd95fc504ea-1333x1333.webp"
+  },
+  {
+    "_id": "7",
+    "name": "8 Pc. Mozzarella Fries",
+    "price": 3.79,
+    "calories": 480,
+    "image": "485b58d705888f3bcb0ceee52811b82b8c7b9251-1333x1333.webp"
+  },
+  {
+    "_id": "8",
+    "name": "4 Pc. Mozzarella Fries",
+    "price": 1.99,
+    "calories": 240,
+    "image": "ae7667ea217f770663248b91f5678c1d3d63fa97-1333x1333.webp"
+  },
+  {
+    "_id": "9",
+    "name": "8 Pc. Fiery Buffalo Nuggets",
+    "price": 2.99,
+    "calories": 510,
+    "image": "5fea4e3ac64e2e4b91c0f8443e0474f588df11f7-1333x1333.webp"
+  },
+  {
+    "_id": "10",
+    "name": "4 Pc. Chicken Fries",
+    "price": 1.99,
+    "calories": 110,
+    "image": "568498946491a711845b200f113b1ed7944a85c8-1333x1333.webp"
+  },
+  {
+    "_id": "11",
+    "name": "16 Pc. Chicken Nuggets",
+    "price": 5.0,
+    "calories": 770,
+    "image": "0398cd46717f54b1ce7a1e265f03adb592f1f945-1333x1333.webp"
+  },
+  {
+    "_id": "12",
+    "name": "8 Pc. Chicken Nuggets",
+    "price": 2.49,
+    "calories": 390,
+    "image": "c9b464392dc47170833906e5956f40d3b9b811dc-1333x1333.webp"
+  },
+  {
+    "_id": "13",
+    "name": "4 Pc. Chicken Nuggets",
+    "price": 1.5,
+    "calories": 190,
+    "image": "055bcfc6548e006af52b4007eea8a45c397b5cae-1333x1333.webp"
+  },
+  {
+    "_id": "14",
+    "name": "MOTTS Applesauce",
+    "price": 1.2,
+    "calories": 50,
+    "image": "99719c80b30ef1ffd3704ad9628357ab01b5a5b0-1333x1333.webp"
+  }
+]
