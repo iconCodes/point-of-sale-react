@@ -11,7 +11,7 @@ export const cartWrapper: ThemeUICSSObject = {
 
 export const cartHeader: ThemeUICSSObject = {
 	background: "secondary",
-	borderBottom: "1px solid",
+	borderBottom: "thin",
 	borderColor: "border2"
 };
 
@@ -31,7 +31,7 @@ export const cartItemWrapper: ThemeUICSSObject = {
 
 export const cartItemGrid: ThemeUICSSObject = {
 	alignItems: "center",
-	borderTop: "1px solid",
+	borderTop: "thin",
 	borderColor: "border2",
 	gap: "0",
 	gridTemplateColumns: "1fr 1fr",
@@ -41,7 +41,7 @@ export const cartItemGrid: ThemeUICSSObject = {
 
 export const cartTotalWrapper: ThemeUICSSObject = {
 	alignItems: "center",
-	borderTop: "1px solid",
+	borderTop: "thin",
 	borderColor: "border2",
 	fontSize: "28px",
 	fontWeight: "bold",

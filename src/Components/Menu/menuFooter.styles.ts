@@ -1,7 +1,7 @@
 import { ThemeUICSSObject } from "theme-ui";
 
 export const footerWrapper: ThemeUICSSObject = {
-	borderTop: "1px solid",
+	borderTop: "thin",
 	borderColor: "border1",
 	height: "100%"
 };

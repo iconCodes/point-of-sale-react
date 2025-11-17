@@ -1,7 +1,7 @@
 import { ThemeUICSSObject } from "theme-ui";
 
 export const cartItemWrapper: ThemeUICSSObject = {
-	borderBottom: "1px solid",
+	borderBottom: "thin",
 	borderColor: "border2",
 	height: "135px",
 	padding: "10px"
