@@ -1,0 +1,218 @@
+[
+	{
+		"_id": "drinks_1",
+		"subCategoryId": "64b5f4f2f1d2c9001e6a4b34",
+		"name": "Coca-Cola",
+		"price": 2.49,
+		"calories": 350,
+		"image": "b7d109aa23dbacd772c8e8168a208bff2a3025b1-1333x1333.webp"
+	},
+	{
+		"_id": "drinks_2",
+		"subCategoryId": "64b5f4f2f1d2c9001e6a4b34",
+		"name": "Diet Coke",
+		"price": 2.49,
+		"calories": 0,
+		"image": "63852aa0afcfb46f6acd0a3566e5df85e15aa101-1333x1333.webp"
+	},
+	{
+		"_id": "drinks_3",
+		"subCategoryId": "64b5f4f2f1d2c9001e6a4b34",
+		"name": "Coca-Cola Zero Sugar",
+		"price": 2.49,
+		"calories": 0,
+		"image": "dba34ccf2ef928d85ef9bee3e3c183556b8c5de2-1333x1333.webp"
+	},
+	{
+		"_id": "drinks_4",
+		"subCategoryId": "64b5f4f2f1d2c9001e6a4b38",
+		"name": "Shakes",
+		"price": 4.19,
+		"calories": 640,
+		"image": "3e8b0ce23c9e25eda86f8013d40d050a0a8df1d1-1333x1333.webp"
+	},
+	{
+		"_id": "drinks_5",
+		"subCategoryId": "64b5f4f2f1d2c9001e6a4b34",
+		"name": "Dr Pepper®",
+		"price": 2.49,
+		"calories": 350,
+		"image": "f6305d42a948b195390db0330ed8e3e27edc4bec-1333x1333.webp"
+	},
+	{
+		"_id": "drinks_6",
+		"subCategoryId": "64b5f4f2f1d2c9001e6a4b34",
+		"name": "Sprite",
+		"price": 2.49,
+		"calories": 330,
+		"image": "d7c3aa1ccded1680176441dae252a39f610264c4-1333x1333.webp"
+	},
+	{
+		"_id": "drinks_7",
+		"subCategoryId": "64b5f4f2f1d2c9001e6a4b34",
+		"name": "Sprite Zero",
+		"price": 2.39,
+		"calories": 10,
+		"image": "b5e3e4aee41f9dfa1a24876dd61c2e2ccc506fb4-1333x1333.webp"
+	},
+	{
+		"_id": "drinks_8",
+		"subCategoryId": "64b5f4f2f1d2c9001e6a4b39",
+		"name": "Pure Life® Purified Water",
+		"price": 1.99,
+		"calories": 0,
+		"image": "c64aba785f4168f3465a2f911e084fe41b5038b0-1333x1333.webp"
+	},
+	{
+		"_id": "drinks_9",
+		"subCategoryId": "64b5f4f2f1d2c9001e6a4b33",
+		"name": "Unsweetened Iced Tea",
+		"price": 2.49,
+		"calories": 0,
+		"image": "5f7a9dc64c5be2b8ca4b25fe6956a6b54f62de9f-1333x1333.webp"
+	},
+	{
+		"_id": "drinks_10",
+		"subCategoryId": "64b5f4f2f1d2c9001e6a4b35",
+		"name": "Minute Maid Lemonade",
+		"price": 2.49,
+		"calories": 260,
+		"image": "7bef6b899d0ce33217c6447cf9a648f7ea280a1e-1333x1333.webp"
+	},
+	{
+		"_id": "drinks_11",
+		"subCategoryId": "64b5f4f2f1d2c9001e6a4b34",
+		"name": "Barq's",
+		"price": 2.49,
+		"calories": 380,
+		"image": "aac64c3af0d12bcbe9767ac75d8d30948fb99abb-1333x1333.webp"
+	},
+	{
+		"_id": "drinks_12",
+		"subCategoryId": "64b5f4f2f1d2c9001e6a4b34",
+		"name": "Diet Barq's",
+		"price": 2.39,
+		"calories": 0,
+		"image": "444cf62d571e4c223a58ebed9f7032956f22b31a-1333x1333.webp"
+	},
+	{
+		"_id": "drinks_13",
+		"subCategoryId": "64b5f4f2f1d2c9001e6a4b35",
+		"name": "HI-C Fruit Punch",
+		"price": 2.39,
+		"calories": 410,
+		"image": "06ba11805696e20db91f8c655526dd758b1c85cc-1333x1333.webp"
+	},
+	{
+		"_id": "drinks_14",
+		"subCategoryId": "64b5f4f2f1d2c9001e6a4b34",
+		"name": "Fanta Orange",
+		"price": 2.39,
+		"calories": 370,
+		"image": "ab0d795041f71f1ef74a87e18d7191006f4199e4-1333x1333.webp"
+	},
+	{
+		"_id": "drinks_15",
+		"subCategoryId": "64b5f4f2f1d2c9001e6a4b34",
+		"name": "Mello Yello",
+		"price": 2.39,
+		"calories": 310,
+		"image": "e50d7a1d1ee624274809d2445bad23e07f48f4c9-1333x1333.webp"
+	},
+	{
+		"_id": "drinks_16",
+		"subCategoryId": "64b5f4f2f1d2c9001e6a4b34",
+		"name": "Powerade Zero",
+		"price": 2.39,
+		"calories": 15,
+		"image": "2a98e346e04acbd53f4dd3349db6a7cb9659c9b0-1333x1333.webp"
+	},
+	{
+		"_id": "drinks_17",
+		"subCategoryId": "64b5f4f2f1d2c9001e6a4b35",
+		"name": "Honest Kids® Apple Juice Drink",
+		"price": 1.59,
+		"calories": 35,
+		"image": "e07cefcc11be00fad4df7a5f43d83e0e2d9070b7-1333x1333.webp"
+	},
+	{
+		"_id": "drinks_18",
+		"subCategoryId": "64b5f4f2f1d2c9001e6a4b34",
+		"name": "Frozen Cotton Candy",
+		"price": 2.59,
+		"calories": 130,
+		"image": "5806f3cc4ccbcc2e31fccde72de7c25a7234e4ea-1333x1333.webp"
+	},
+	{
+		"_id": "drinks_19",
+		"subCategoryId": "64b5f4f2f1d2c9001e6a4b34",
+		"name": "Frozen Cotton Candy Cloud",
+		"price": 2.59,
+		"calories": 250,
+		"image": "1058969c92cda4852c3791be261beb92f8eff07b-1333x1333.webp"
+	},
+	{
+		"_id": "drinks_20",
+		"subCategoryId": "64b5f4f2f1d2c9001e6a4b34",
+		"name": "Frozen Coke®",
+		"price": 2.59,
+		"calories": 160,
+		"image": "903f911db73f226f1d66caee358cfd93aeb1d603-1333x1333.webp"
+	},
+	{
+		"_id": "drinks_21",
+		"subCategoryId": "64b5f4f2f1d2c9001e6a4b34",
+		"name": "Frozen Fanta® Blue Raspberry",
+		"price": 2.59,
+		"calories": 160,
+		"image": "251c0b0c3e6b3efed4642d52a0707dc4ef18ad14-1333x1333.webp"
+	},
+	{
+		"_id": "drinks_22",
+		"subCategoryId": "64b5f4f2f1d2c9001e6a4b34",
+		"name": "Frozen Fanta® Wild Cherry",
+		"price": 2.59,
+		"calories": 160,
+		"image": "f9a09538794c7a4d96d0d35b162390ff59bd3a01-1333x1333.webp"
+	},
+	{
+		"_id": "drinks_23",
+		"subCategoryId": "64b5f4f2f1d2c9001e6a4b32",
+		"name": "BK Café",
+		"price": 1.89,
+		"calories": 0,
+		"image": "2d45661a748b63dd3af82e06f5395be5fc4727c6-1333x1333.webp"
+	},
+	{
+		"_id": "drinks_24",
+		"subCategoryId": "64b5f4f2f1d2c9001e6a4b32",
+		"name": "BK Café Decaf",
+		"price": 1.89,
+		"calories": 0,
+		"image": "2d45661a748b63dd3af82e06f5395be5fc4727c6-1333x1333.webp"
+	},
+	{
+		"_id": "drinks_25",
+		"subCategoryId": "64b5f4f2f1d2c9001e6a4b32",
+		"name": "BK Café Iced Coffee",
+		"price": 2.59,
+		"calories": 200,
+		"image": "caf792d8628121dda45a1ec98e8afa2114cc6b07-1333x1333.webp"
+	},
+	{
+		"_id": "drinks_26",
+		"subCategoryId": "64b5f4f2f1d2c9001e6a4b37",
+		"name": "Fat Free Milk",
+		"price": 1.5,
+		"calories": 90,
+		"image": "7a1c6ce7d6103a88c641498a88bac4b1e2e9a75a-1333x1333.webp"
+	},
+	{
+		"_id": "drinks_27",
+		"subCategoryId": "64b5f4f2f1d2c9001e6a4b35",
+		"name": "Simply® Orange Juice",
+		"price": 1.99,
+		"calories": 160,
+		"image": "e9885b2bb39c7e4ebac1401a1233d146f56c562e-1333x1333.webp"
+	}
+]

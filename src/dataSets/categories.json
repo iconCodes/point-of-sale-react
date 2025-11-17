@@ -1,0 +1,97 @@
+[
+	{
+		"id": "64b5f4f2f1d2c9001e6a4b2c",
+		"name": "Burgers",
+		"description": "Delicious grilled burgers",
+		"icon": "mdiHamburger",
+		"order": 1,
+		"active": true,
+		"subCategories": [
+			{
+				"id": "64b5f4f2f1d2c9001e6a4b29",
+				"name": "Beef"
+			},
+			{
+				"id": "64b5f4f2f1d2c9001e6a4b30",
+				"name": "Chicken"
+			},
+			{
+				"id": "64b5f4f2f1d2c9001e6a4b31",
+				"name": "Fish"
+			}
+		]
+	},
+	{
+		"id": "64b5f4f2f1d2c9001e6a4b2f",
+		"name": "Pizza",
+		"description": "Tasty handmade pizzas",
+		"icon": "mdiPizza",
+		"order": 2,
+		"active": true
+	},
+	{
+		"id": "64b5f4f2f1d2c9001e6a4b2d",
+		"name": "Drinks",
+		"description": "Refreshing beverages",
+		"icon": "mdiBeer",
+		"order": 3,
+		"active": true,
+		"subCategories": [
+			{
+				"id": "64b5f4f2f1d2c9001e6a4b32",
+				"name": "Coffee"
+			},
+			{
+				"id": "64b5f4f2f1d2c9001e6a4b34",
+				"name": "Fountain Drinks"
+			},
+			{
+				"id": "64b5f4f2f1d2c9001e6a4b37",
+				"name": "Milk"
+			},
+			{
+				"id": "64b5f4f2f1d2c9001e6a4b35",
+				"name": "Juice"
+			},
+			{
+				"id": "64b5f4f2f1d2c9001e6a4b38",
+				"name": "Shakes"
+			},
+
+			{
+				"id": "64b5f4f2f1d2c9001e6a4b33",
+				"name": "Tea"
+			},
+			{
+				"id": "64b5f4f2f1d2c9001e6a4b39",
+				"name": "Water"
+			}
+		]
+	},
+	{
+		"id": "64b5f4f2f1d2c9001e6a4b2e",
+		"name": "Sides",
+		"description": "Tasty side dishes",
+		"icon": "mdiCupcake",
+		"order": 4,
+		"active": true,
+		"subCategories": [
+			{
+				"id": "64b5f4f2f1d2c9001e6a4b3a",
+				"name": "Cheese"
+			},
+			{
+				"id": "64b5f4f2f1d2c9001e6a4b3b",
+				"name": "Chicken"
+			},
+			{
+				"id": "64b5f4f2f1d2c9001e6a4b3c",
+				"name": "Fruit"
+			},
+			{
+				"id": "64b5f4f2f1d2c9001e6a4b3d",
+				"name": "Necessities"
+			}
+		]
+	}
+]
