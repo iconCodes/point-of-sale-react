@@ -1,12 +1,9 @@
-import React from "react";
+import { FC } from "react";
 import { Flex } from "theme-ui";
+import * as styles from "./menu.styles";
 
 interface MenuHeaderProps {}
 
-export const MenuHeader: React.FC<MenuHeaderProps> = () => {
-  return (
-    <Flex data-testid="menu-header" variant="template.menuHeader">
-      GimmeBurger!
-    </Flex>
-  );
+export const MenuHeader: FC<MenuHeaderProps> = () => {
+	return <Flex sx={styles.menuHeader}>GimmeBurger!</Flex>;
 };

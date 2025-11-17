@@ -1,29 +1,35 @@
 import React from "react";
 import { Box, Flex } from "theme-ui";
-import { MenuItem } from "../../../Types";
+import { MenuItem } from "@types";
+import { useMenuDataStore } from "@dataStores";
+import * as styles from "./menuItem.styles";
 
 interface MenuItemProps {
-  handleAddToCart: (item: MenuItem) => void;
-  item: MenuItem;
+	item: MenuItem;
 }
 
-export const MenuItemComponent: React.FC<MenuItemProps> = ({ handleAddToCart, item }) => {
-  return (
-    <Box variant="menuItems.item">
-      <Box variant="menuItems.item.image">
-        <img src={`${import.meta.env.VITE_CLOUD}${item.image}`} alt={item.name} />
-      </Box>
-      <Flex sx={{ justifyContent: "space-between" }}>
-        <Flex sx={{ flexDirection: "column", gap: 1, mt: 1 }}>
-          <Box variant="menuItems.item.calories">{item.calories} calories</Box>
-          <Box variant="menuItems.item.name">{item.name}</Box>
-          <Box variant="menuItems.item.price">{item.price}</Box>
-        </Flex>
+export const MenuItemComponent: React.FC<MenuItemProps> = ({ item }) => {
+	const handleAddToCart = useMenuDataStore.getState().addToCart;
 
-        <Box variant="menuItems.item.addButton" onClick={() => handleAddToCart(item)}>
-          +
-        </Box>
-      </Flex>
-    </Box>
-  );
+	return (
+		<Box sx={styles.itemWrapper} onClick={() => handleAddToCart(item)}>
+			<Box
+				sx={{
+					...styles.itemImage,
+					backgroundImage: `url(${import.meta.env.VITE_CLOUD}product-bg.jpg)`
+				}}
+			>
+				<img src={`${import.meta.env.VITE_CLOUD}${item.image}`} alt={item.name} />
+			</Box>
+			<Flex sx={styles.itemInfoWrapper}>
+				<Flex sx={styles.itemInfoInnerWrapper}>
+					<Box sx={styles.itemCalories}>{item.calories} calories</Box>
+					<Box sx={styles.itemName}>{item.name}</Box>
+					<Box sx={styles.itemPrice}>{item.price}</Box>
+				</Flex>
+
+				<Box sx={styles.addToCart}>+</Box>
+			</Flex>
+		</Box>
+	);
 };

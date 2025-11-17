@@ -1,1 +1,2 @@
-export { MenuItemHook as useMenuItems } from "./MenuItemHook";
+export { useMenuItems } from "./useMenuItems/useMenuItems";
+export { useShoppingCart } from "./useShoppingCart/useShoppingCart";
