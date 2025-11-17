@@ -1,0 +1,73 @@
+[
+  {
+    "categoryId": "64b5f4f2f1d2c9001e6a4b2c",
+    "id": "64b5f4f2f1d2c9001e6a4b29",
+    "name": "Beef"
+  },
+  {
+    "categoryId": "64b5f4f2f1d2c9001e6a4b2c",
+    "id": "64b5f4f2f1d2c9001e6a4b30",
+    "name": "Chicken"
+  },
+  {
+    "categoryId": "64b5f4f2f1d2c9001e6a4b2c",
+    "id": "64b5f4f2f1d2c9001e6a4b31",
+    "name": "Fish"
+  },
+  {
+    "id": "64b5f4f2f1d2c9001e6a4b32",
+    "categoryId": "64b5f4f2f1d2c9001e6a4b2d",
+    "name": "Coffee"
+  },
+  {
+    "id": "64b5f4f2f1d2c9001e6a4b34",
+    "categoryId": "64b5f4f2f1d2c9001e6a4b2d",
+    "name": "Fountain Drinks"
+  },
+  {
+    "id": "64b5f4f2f1d2c9001e6a4b37",
+    "categoryId": "64b5f4f2f1d2c9001e6a4b2d",
+    "name": "Milk"
+  },
+  {
+    "id": "64b5f4f2f1d2c9001e6a4b35",
+    "categoryId": "64b5f4f2f1d2c9001e6a4b2d",
+    "name": "Juice"
+  },
+  {
+    "id": "64b5f4f2f1d2c9001e6a4b38",
+    "categoryId": "64b5f4f2f1d2c9001e6a4b2d",
+    "name": "Shakes"
+  },
+
+  {
+    "id": "64b5f4f2f1d2c9001e6a4b33",
+    "categoryId": "64b5f4f2f1d2c9001e6a4b2d",
+    "name": "Tea"
+  },
+  {
+    "id": "64b5f4f2f1d2c9001e6a4b39",
+    "categoryId": "64b5f4f2f1d2c9001e6a4b2d",
+    "name": "Water"
+  },
+  {
+    "id": "64b5f4f2f1d2c9001e6a4b3a",
+    "categoryId": "64b5f4f2f1d2c9001e6a4b2e",
+    "name": "Cheese"
+  },
+  {
+    "id": "64b5f4f2f1d2c9001e6a4b3b",
+    "categoryId": "64b5f4f2f1d2c9001e6a4b2e",
+    "name": "Chicken"
+  },
+  {
+    "id": "64b5f4f2f1d2c9001e6a4b3c",
+    "categoryId": "64b5f4f2f1d2c9001e6a4b2e",
+    "name": "Fruit"
+  },
+  {
+    "id": "64b5f4f2f1d2c9001e6a4b3d",
+    "categoryId": "64b5f4f2f1d2c9001e6a4b2e",
+    "name": "Necessities"
+  }
+]
