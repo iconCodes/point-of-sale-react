@@ -9,7 +9,7 @@ export default defineConfig({
 			"@components/": "/src/components/",
 			"@dataStores": "/src/dataStores",
 			"@hooks": "/src/hooks",
-			"@types": "/src/types"
+			"@types": "/src/typings"
 		}
 	},
 	server: {

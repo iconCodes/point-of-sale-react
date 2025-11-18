@@ -9,55 +9,46 @@ import { MenuHeader } from "./MenuHeader";
 import { MenuSubHeader } from "./MenuSubHeader";
 
 interface MenuWrapperProps {
-  fullscreenToggle: () => void;
+	fullscreenToggle: () => void;
 }
 
 export const MenuWrapper: FC<MenuWrapperProps> = ({ fullscreenToggle }) => {
-  const [menuItems, setMenuItems] = useState<MenuItem[]>([]);
-  const [menuGroup, setMenuGroup] = useState<MenuCategories>(
-    MenuCategories.Burgers
-  );
-  const [menuGroupType, setMenuGroupType] = useState<MenuSubCategories | null>(
-    null
-  );
+	const [menuItems, setMenuItems] = useState<MenuItem[]>([]);
+	const [menuGroup, setMenuGroup] = useState<MenuCategories>(MenuCategories.Burgers);
+	const [menuGroupType, setMenuGroupType] = useState<MenuSubCategories | null>(null);
 
-  const { getMenuItems } = useMenuItems();
+	const { getMenuItems } = useMenuItems();
 
-  useEffect(() => {
-    setMenuItems(getMenuItems(menuGroup, menuGroupType));
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+	useEffect(() => {
+		setMenuItems(getMenuItems(menuGroup, menuGroupType));
+		// eslint-disable-next-line react-hooks/exhaustive-deps
+	}, []);
 
-  useEffect(() => {
-    setMenuItems(getMenuItems(menuGroup, menuGroupType));
-  }, [getMenuItems, menuGroup, menuGroupType]);
+	useEffect(() => {
+		setMenuItems(getMenuItems(menuGroup, menuGroupType));
+	}, [getMenuItems, menuGroup, menuGroupType]);
 
-  const handleCategoryChange = (group: MenuCategories): void => {
-    setMenuGroupType(null);
-    setMenuGroup(group);
-  };
+	const handleCategoryChange = (group: MenuCategories): void => {
+		setMenuGroupType(null);
+		setMenuGroup(group);
+	};
 
-  const handleSubCategoryChange = (
-    groupType: MenuSubCategories | null
-  ): void => {
-    setMenuGroupType(groupType);
-  };
+	const handleSubCategoryChange = (groupType: MenuSubCategories | null): void => {
+		setMenuGroupType(groupType);
+	};
 
-  return (
-    <Grid sx={styles.menuWrapper}>
-      <MenuHeader />
+	return (
+		<Grid sx={styles.menuWrapper}>
+			<MenuHeader />
 
-      <MenuSubHeader
-        handleMenuGroupTypeChange={handleSubCategoryChange}
-        menuGroup={menuGroup}
-      />
+			<MenuSubHeader handleMenuGroupTypeChange={handleSubCategoryChange} menuGroup={menuGroup} />
 
-      <MenuItems items={menuItems} />
+			<MenuItems items={menuItems} />
 
-      <MenuFooter
-        fullscreenToggle={fullscreenToggle}
-        handleMenuGroupChange={handleCategoryChange}
-      />
-    </Grid>
-  );
+			<MenuFooter
+				fullscreenToggle={fullscreenToggle}
+				handleMenuGroupChange={handleCategoryChange}
+			/>
+		</Grid>
+	);
 };
